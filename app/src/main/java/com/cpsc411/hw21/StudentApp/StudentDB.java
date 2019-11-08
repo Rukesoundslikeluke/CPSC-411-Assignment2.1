@@ -20,4 +20,6 @@ public class StudentDB {
     public void setStudentList(ArrayList<Student> studentList){
         mStudentList = studentList;
     }
+
+    public void addStudent(Student s){mStudentList.add(s);}
 }
